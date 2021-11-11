@@ -137,6 +137,58 @@
             kink out major apsects of the website and complete the assignment. 
         </li>
     </ul>
+
+    <h2>Entry 3 - 11/08/21</h2>
+    <h3>What was challenging about the assignment, and what specific kinds of problems did you have. How did you solve
+        those problems?</h3>
+    <ul>
+        <li>
+            The assignment as a whole was very challenging for me because I essentially dove head first into java without
+            really having a good understanding of how javascript works. It was through trial and error that I completed the parts
+            of the assignment that I did. My first major problem arised with properly clearing the fields after the user clicks
+            to publish the post and alerting at the right time. Even though all the fields were entered an alert would continue to 
+            show up, but the post would still publish. I asked fellow classmates what I should do, and after implementing 
+            their solutions, it still wouldn't work. It wasn't until I spoke with the TA that I realized my logic for checking whether
+            the fields were empty was flawed. To resolve this issue I repositioned my function where I checked whether the fields were 
+            empty or not. The other major issue I was having and currently am facing is with filtering the posts - specifically with 
+            removing the proper DOM elements and making them reappear. After hours and hours of tinkering and debugging, I was able finally 
+            able to somewhat filter the posts by using "article[i].remove()" as opposed to "container.removeChild(article[i]".
+        </li>
+    </ul>
+
+    <h3>What did you learn from the assignment? Were there any special insights you had? What did you find that you
+        already knew?</h3>
+    <ul>
+        <li>
+            I learned about the importance of anonymous functions, using global variables, and how to properly remove DOM elements. 
+            Coming from programming with C++ exclusively, it was quite unusual not having to include a semi-colon after each statement, having to 
+            assign a data type for each variable declared, and not having to dynamically allocating memory to utilize an array. 
+        </li>
+    </ul>
+
+    <h3>What kinds of resources were helpful for completing the assignment? Specific websites? Lectures? The class
+        Piazza forum? The TAs? How did you use each of these resources?</h3>
+    <ul>
+        <li>
+            In order to get initial exposure to the functionality with javascript I watched all the lectures through the media gallery. 
+            This was good enough to devise an initial plan for how to go about adding posts, but as I soon realized, I was still largely 
+            clueless as to how to actually write it out. The most helpful resource throughout this assignment was stackOverflow. Copying and 
+            pasting my error message to Google led me to forums where people faced similar issues. The helpful people who pointed out the 
+            problem and offered a solution allowed me to realize my mistakes and how to fix them. Additionally, I used the MDN documentation 
+            to understand how specific functions work and to see examples of how to use them.
+        </li>
+    </ul>
+
+    <h3>What are one or two things you had to Google to complete the assignment?</h3>
+    <ul>
+        <li>
+            One of the things I had to Google was was data attributes work. I was led to the MDN documentation which explained what the purpose of these 
+            data attributes are and how they can be accessed. I had to seperately Google how to add and assign values to data attributes after a creating 
+            a new post. The other thing I had to Google was how to check which boxes are checked in the conditions section. I saw that there was something to 
+            denote that the box was checked in the html but I wasn't sure how to access this selected value. After Googling did I learn that I can use a built in 
+            funciton to see which options the user has selected.
+        </li>
+    </ul>
 </body>
 
 </html>
